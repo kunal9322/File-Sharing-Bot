@@ -89,7 +89,8 @@ async def start_command(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton("😊 About Me", callback_data = "about"),
-                    InlineKeyboardButton("🔒 Close", callback_data = "close")
+                    InlineKeyboardButton("🔒 Close", callback_data = "close"), 
+                    InlineKeyboardButton(text="🥀 Update Channel 🥀", url=f"https://t.me/Campus_Bot_Update")
                 ]
             ]
         )
