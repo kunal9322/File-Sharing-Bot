@@ -2,7 +2,6 @@
 pyrogram
 TgCrypto
 Pyromod
-python
 # --- For-Database ------------ #
 pymongo
 dnspython
